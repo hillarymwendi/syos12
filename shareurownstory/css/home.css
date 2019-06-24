@@ -1,0 +1,116 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : May 26, 2019, 9:21:41 AM
+    Author     : hillary
+*/
+
+ul{
+    margin: opx;
+    padding: 0px;
+    list-style: none;
+}
+ul li{
+    float: left;
+    width: 190px;
+    height: 40px;
+    background-color: black;
+    opacity: .8;
+    line-height: 40px;
+    text-align: center;
+    font-size: 20px;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    
+}
+ul li a:hover{
+    background: green;
+}
+ul li ul li{
+    display: none;
+}
+ul li:hover ul li{
+    display: block;
+}
+#news {
+    width: 600px;
+    height: 620px;
+    background-image: url(162_s.jpeg) no-repeat;
+    padding: 5px;
+    position: absolute;
+    top:30%;
+    left:35%;
+    margin:-100px 0 0 -150px;
+}
+#mik{
+    text-align: center;
+     width: 1480px;
+    height: 140px;
+    background: goldenrod;
+    padding: 5px;
+    position: absolute;
+    top:920px;
+    left:0%;
+    margin:-100px 0 0 -150px;
+}
+#malik{
+    background-color: yellow;
+    height: 600px;
+    width: 320px;
+    position: absolute;
+    float: right;
+    top:120px;
+   left:75%;
+}
+#image{
+     width: 600px;
+    height: 260px;
+    background: wheat;
+}
+#ima{
+     width: 600px;
+    height: 260px;
+    background: whitesmoke;
+}
+#pic{
+    width: 600px;
+    height: 660px;
+
+    padding: 5px;
+    position: absolute;
+    top:25%;
+    left:35%;
+    margin:-100px 0 0 -150px;
+}
+img {
+   border-radius: 8px;
+  width:320px;
+  height: 320px;
+}
+#mystory{
+    text-align: center;
+     width: 600px;
+    height: 620px;
+background-color: aqua;
+    padding: 5px;
+    position: absolute;
+    top:75%;
+    left:35%;
+    margin:-100px 0 0 -150px;
+}
+#maka{
+    width: 600px;
+    height: 660px;
+background-image: url(bible1.jpg);
+    padding: 5px;
+    position: absolute;
+    top:25%;
+    left:35%;
+    margin:-100px 0 0 -150px;
+}
